@@ -147,21 +147,13 @@ var plugins = [{
     "background_color": "#141821",
     "theme_color": "#ff9900",
     "display": "standalone",
-    "icons": [{
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }, {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }],
+    "icon": "src/images/android-chrome-512x512.png",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": null
+    "cacheDigest": "5b7ba6d8bfeffe8ee22c3a84f8a046fa"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-offline/gatsby-ssr */ "./node_modules/gatsby-plugin-offline/gatsby-ssr.js"),
